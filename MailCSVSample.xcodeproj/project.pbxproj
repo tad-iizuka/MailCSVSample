@@ -12,6 +12,7 @@
 		32A441321D9B2E0B000AA040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A441301D9B2E0B000AA040 /* Main.storyboard */; };
 		32A441341D9B2E0B000AA040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A441331D9B2E0B000AA040 /* Assets.xcassets */; };
 		32A441371D9B2E0B000AA040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A441351D9B2E0B000AA040 /* LaunchScreen.storyboard */; };
+		32A441401D9B2E1D000AA040 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A4413F1D9B2E1D000AA040 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		32A441331D9B2E0B000AA040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32A441361D9B2E0B000AA040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32A441381D9B2E0B000AA040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A4413F1D9B2E1D000AA040 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A441401D9B2E1D000AA040 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				32A4412B1D9B2E0B000AA040 /* MailCSVSample */,
 				32A4412A1D9B2E0B000AA040 /* Products */,
+				32A4413E1D9B2E1D000AA040 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				32A441381D9B2E0B000AA040 /* Info.plist */,
 			);
 			path = MailCSVSample;
+			sourceTree = "<group>";
+		};
+		32A4413E1D9B2E1D000AA040 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32A4413F1D9B2E1D000AA040 /* MessageUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
